@@ -1,6 +1,6 @@
 ## A Simple Rest Monitor
 
-![Image](https://raw.githubusercontent.com/y0y0dyn3/simplerestmonitor/master/docs/blog-banner.png)
+![Image](https://raw.githubusercontent.com/y0y0dyn3/opsmanfan/master/simplerestmonitor/docs/blog-banner.png)
 
 Web Service APIs are not only here to stay, they are ubiquitous and reaching further and further into your infrastructure. With the arrival of services like Rackspace Cloud Sites, Service Now, and SalesForce, your mission critical applications and services will often be dependent on a Web Service API. And in the event you are not using one of the endless list of SAAS/IAAS/Cloud services out there, you are likely using at least one internally written app or off the shelf software package that utilizes a Web API. This could include REpresentational State Transfer (REST), SOAP, XMLRPC, WSDL and others.
 
@@ -25,7 +25,7 @@ So the First step is to open the Web Application Availability Monitoring wizard,
 
 Select your Watcher Node/Pool/Location.
 
-![Image](https://raw.githubusercontent.com/y0y0dyn3/simplerestmonitor/master/docs/4v2.jpg)
+![Image](https://raw.githubusercontent.com/y0y0dyn3/opsmanfan/master/simplerestmonitor/docs/4v2.jpg)
 
 And now for the important part,  select "Change Configuration".
 
@@ -33,13 +33,13 @@ And now for the important part,  select "Change Configuration".
 
 Now Select content match contains "555".  This guarantees that we get a content match with a proper response and an alert for this demo. In production, you would of course want to alert on the absence of correct response.
 
-![Image](https://raw.githubusercontent.com/y0y0dyn3/simplerestmonitor/master/docs/7.jpg)
+![Image](https://raw.githubusercontent.com/y0y0dyn3/opsmanfan/master/simplerestmonitor/docs/7.jpg)
 
 
 Change the HTTP method to POST.
 
 
-![Image](https://raw.githubusercontent.com/y0y0dyn3/simplerestmonitor/master/docs/8.jpg)
+![Image](https://raw.githubusercontent.com/y0y0dyn3/opsmanfan/master/simplerestmonitor/docs/8.jpg)
 
 
 Enter your XML into the request body.  A good primer on on XMLRPC syntax can be found here.
@@ -56,22 +56,22 @@ Enter your XML into the request body.  A good primer on on XMLRPC syntax can be 
 \<params>\
 \</methodCall>
 
-![Image](https://raw.githubusercontent.com/y0y0dyn3/simplerestmonitor/master/docs/9.jpg)
+![Image](https://raw.githubusercontent.com/y0y0dyn3/opsmanfan/master/simplerestmonitor/docs/9.jpg)
 
 
 
 Add the Content-Type HTTP Header.  Set it to application/XML.
 
 
-![Image](https://raw.githubusercontent.com/y0y0dyn3/simplerestmonitor/master/docs/10.jpg)
+![Image](https://raw.githubusercontent.com/y0y0dyn3/opsmanfan/master/simplerestmonitor/docs/10.jpg)
 
 And you are done.  Click Apply.
 
-![Image](https://raw.githubusercontent.com/y0y0dyn3/simplerestmonitor/master/docs/11.jpg)
+![Image](https://raw.githubusercontent.com/y0y0dyn3/opsmanfan/master/simplerestmonitor/docs/11.jpg)
 
 Now we can see the results.  Hit Run Test.
 
-![Image](https://raw.githubusercontent.com/y0y0dyn3/simplerestmonitor/master/docs/12.jpg)
+![Image](https://raw.githubusercontent.com/y0y0dyn3/opsmanfan/master/simplerestmonitor/docs/12.jpg)
 
 
 And we get a valid response from our Web Service!  You have just authored your first Web Service API monitor!
