@@ -18,7 +18,7 @@ If, as in this example you can do everything in one step, Web Application Availa
 
 So the First step is to open the Web Application Availability Monitoring wizard, then enter a name, description and destination management pack. Then you provide a friendly name and the URL for your target. http://www.pythonchallenge.com/pc/phonebook.php in this case.
 
-![Image](https://raw.githubusercontent.com/y0y0dyn3/simplerestmonitor/master/docs/3.jpg)
+![Image](https://raw.githubusercontent.com/y0y0dyn3/opsmanfan/master/simplerestmonitor/docs/3.jpg)
 
 
 
@@ -29,7 +29,7 @@ Select your Watcher Node/Pool/Location.
 
 And now for the important part,  select "Change Configuration".
 
-![Image](https://raw.githubusercontent.com/y0y0dyn3/simplerestmonitor/master/docs/5v2.jpg)
+![Image](https://raw.githubusercontent.com/y0y0dyn3/opsmanfan/master/simplerestmonitor/docs/5v2.jpg)
 
 Now Select content match contains "555".  This guarantees that we get a content match with a proper response and an alert for this demo. In production, you would of course want to alert on the absence of correct response.
 
