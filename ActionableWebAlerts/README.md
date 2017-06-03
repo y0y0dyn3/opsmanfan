@@ -120,5 +120,5 @@ There are some caveats to this script.
 
 I have attached the Powershell script, a sample base MP, and the modified MP. It has two monitors, one with three steps and a content match, and one with a single step. Hopefully this makes your life a little easier.
 
-[A Zip file with the Powershell Script, Unmodifed MP example and Modified MP Example.](https://github.com/y0y0dyn3/opsmanfan/blob/master/ActionableWebAlerts/docs/DetailedAlerts.zip)
+[A Zip file with the Powershell Script, Unmodifed MP example and Modified MP Example.](https://raw.githubusercontent.com/y0y0dyn3/opsmanfan/master/ActionableWebAlerts/docs/DetailedAlerts.zip)
 
