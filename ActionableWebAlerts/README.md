@@ -107,14 +107,18 @@ And of course you can alter this to suit your own needs. And yes, it is one of t
 
 There are some caveats to this script.
 
-    Please test thoroughly before putting anything altered by this script into your production environment.
-    I have tested this with an MP that has Web Transaction, Web Availability, and TCP Port check monitors. In our environment, these are typically the only monitor types that we will have side by side in one MP. Have ODBC, Windows Service Monitors, Linux BASH, etc etc in the same MP? I do not expect an issue, but Test, Test, Test. Did I say test?
-    If you use this script, then make a change, such as the addition of a content check, you will have to manually update the new unit monitor, or process it through the script again.
-    This script will ignore any Unit Monitors that have already been turned on, or Roll Ups that have been turned off. So it is safe to use against already modified MPs. Once again though, test and keep backups just in case.
-    This has only been tested against a 2012 environement. I am not familiar enough with the 1.0 version of the schema used in 2007 R2 to know if this script will work against MPs generated there.
-    This has not been tested with multiple language packs installed and likely will not work
+1. Please test thoroughly before putting anything altered by this script into your production environment.
+2. I have tested this with an MP that has Web Transaction, Web Availability, and TCP Port check monitors. 
+   In our environment, these are typically the only monitor types that we will have side by side in one MP.
+   Have ODBC, Windows Service Monitors, Linux BASH, etc etc in the same MP? I do not expect an issue, but Test, Test, Test. Did I say test?
+3. If you use this script, then make a change, such as the addition of a content check, you will have to manually update the new unit monitor, or process it through the script again.
+4. This script will ignore any Unit Monitors that have already been turned on, or Roll Ups that have been turned off.
+   So it is safe to use against already modified MPs. Once again though, test and keep backups just in case.
+5. This has only been tested against a 2012 environement. I am not familiar enough with the 1.0 version of the schema used in 2007 R2 to know
+   if this script will work against MPs generated there.
+6. This has not been tested with multiple language packs installed and likely will not work
 
 I have attached the Powershell script, a sample base MP, and the modified MP. It has two monitors, one with three steps and a content match, and one with a single step. Hopefully this makes your life a little easier.
 
-[A Zip file with the Powershell Script, Unmodifed MP example and Modified MP Example.] (https://github.com/y0y0dyn3/opsmanfan/blob/master/ActionableWebAlerts/docs/DetailedAlerts.zip)
+[A Zip file with the Powershell Script, Unmodifed MP example and Modified MP Example.](https://github.com/y0y0dyn3/opsmanfan/blob/master/ActionableWebAlerts/docs/DetailedAlerts.zip)
 
