@@ -66,13 +66,13 @@ X-Powered-By: PHP/5.3.3-7+squeeze8
 
 
 ResponseBody: <?xml version="1.0"?>
-<methodResponse>
-<params>
-<param>
-<value><string>555-ITALY</string></value>
-</param>
-</params>
-</methodResponse>
+\<methodResponse>
+\<params>
+\<param>
+\<value><string>555-ITALY</string></value>
+\</param>
+\</params>
+\</methodResponse>
 
 ****End Response Data****
 
@@ -81,15 +81,15 @@ ResponseBody: <?xml version="1.0"?>
 
 DNSResolutionTime: 9.12127099952648E-04
 
-Raw Context Data: <DataItem type="Microsoft.SystemCenter.WebApplication.WebApplicationData" time="2012-09-28T15:45:53.0041177-05:00" sourceHealthServiceId="4AEC9B8F-4E7F-552B-C0AD-C2B21161B85D"><RequestResults><RequestResult Id="1"><State>1</State><BasePageData><ResponseUrl>http://google.com</ResponseUrl><DNSResolutionTime>0</DNSResolutionTime><TCPConnectTime>0</TCPConnectTime><TimeToFirstByte>0</TimeToFirstByte><TimeToLastByte>0</TimeToLastByte><RedirectTime>0</RedirectTime><DownloadTime>0</DownloadTime><TotalResponseTime>0</TotalResponseTime><ContentSize>0</ContentSize><StatusCode>0</StatusCode><ErrorCode>2147954429</ErrorCode><ContentHash>{00000000-0000-
-]]></ResponseHeaders><ContentChanged Type="Boolean">false</ContentChanged><ResponseBody><![CDATA[<?xml version="1.0"?>
-<methodResponse>
-<params>
-<param>
-<value><string>555-ITALY</string></value>
-</param>
-</params>
-</methodResponse>]]></ResponseBody><SecureFailureCode>0</SecureFailureCode><DaysToExpiry>4294967295</DaysToExpiry><RequestUrl>http://www.pythonchallenge.com/pc/phonebook.php</RequestUrl><RequestHeaders><![CDATA[POST /pc/phonebook.php HTTP/1.1
+\Raw Context Data: <DataItem type="Microsoft.SystemCenter.WebApplication.WebApplicationData" time="2012-09-28T15:45:53.0041177-05:00" sourceHealthServiceId="4AEC9B8F-4E7F-552B-C0AD-C2B21161B85D"><RequestResults><RequestResult Id="1"><State>1</State><BasePageData><ResponseUrl>http://google.com</ResponseUrl><DNSResolutionTime>0</DNSResolutionTime><TCPConnectTime>0</TCPConnectTime><TimeToFirstByte>0</TimeToFirstByte><TimeToLastByte>0</TimeToLastByte><RedirectTime>0</RedirectTime><DownloadTime>0</DownloadTime><TotalResponseTime>0</TotalResponseTime><ContentSize>0</ContentSize><StatusCode>0</StatusCode><ErrorCode>2147954429</ErrorCode><ContentHash>{00000000-0000-
+\]]></ResponseHeaders><ContentChanged Type="Boolean">false</ContentChanged><ResponseBody><![CDATA[<?xml version="1.0"?>
+\<methodResponse>
+\<params>
+\<param>
+\<value><string>555-ITALY</string></value>
+\</param>
+\</params>
+\</methodResponse>]]></ResponseBody><SecureFailureCode>0</SecureFailureCode><DaysToExpiry>4294967295</DaysToExpiry><RequestUrl>http://www.pythonchallenge.com/pc/phonebook.php</RequestUrl><RequestHeaders><![CDATA[POST /pc/phonebook.php HTTP/1.1
 User-Agent: Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1)
 Accept: */*
 Accept-Language: en-us
@@ -98,7 +98,7 @@ Content-Type: application/xml
 Connection: Keep-Alive
 Content-Length: 154
 
-]]></RequestHeaders><Verb>POST</Verb><Version>HTTP/1.1</Version><DNSResolutionTimeEvalResult>0</DNSResolutionTimeEvalResult><TCPConnectTimeEvalResult>0</TCPConnectTimeEvalResult><TimeToFirstByteEvalResult>0</TimeToFirstByteEvalResult><TimeToLastByteEvalResult>0</TimeToLastByteEvalResult><RedirectTimeEvalResult>0</RedirectTimeEvalResult><DownloadTimeEvalResult>0</DownloadTimeEvalResult><TotalResponseTimeEvalResult>0</TotalResponseTimeEvalResult><ContentSizeEvalResult>0</ContentSizeEvalResult><ResponseBodyEvalResult>3</ResponseBodyEvalResult><StatusCodeEvalResult>1</StatusCodeEvalResult><ErrorCodeEvalResult>0</ErrorCodeEvalResult><CustomCriteriaEvalResult>0</CustomCriteriaEvalResult><DaysToExpiryEvalResult>0</DaysToExpiryEvalResult><CertificateExpired Type="Boolean">false</CertificateExpired><CertificateAuthorityUntrusted Type="Boolean">false</CertificateAuthorityUntrusted><CertificateCNInvalid Type="Boolean">false</CertificateCNInvalid><DNSResolutionFailure Type="Boolean">false</DNSResol
+\]]></RequestHeaders><Verb>POST</Verb><Version>HTTP/1.1</Version><DNSResolutionTimeEvalResult>0</DNSResolutionTimeEvalResult><TCPConnectTimeEvalResult>0</TCPConnectTimeEvalResult><TimeToFirstByteEvalResult>0</TimeToFirstByteEvalResult><TimeToLastByteEvalResult>0</TimeToLastByteEvalResult><RedirectTimeEvalResult>0</RedirectTimeEvalResult><DownloadTimeEvalResult>0</DownloadTimeEvalResult><TotalResponseTimeEvalResult>0</TotalResponseTimeEvalResult><ContentSizeEvalResult>0</ContentSizeEvalResult><ResponseBodyEvalResult>3</ResponseBodyEvalResult><StatusCodeEvalResult>1</StatusCodeEvalResult><ErrorCodeEvalResult>0</ErrorCodeEvalResult><CustomCriteriaEvalResult>0</CustomCriteriaEvalResult><DaysToExpiryEvalResult>0</DaysToExpiryEvalResult><CertificateExpired Type="Boolean">false</CertificateExpired><CertificateAuthorityUntrusted Type="Boolean">false</CertificateAuthorityUntrusted><CertificateCNInvalid Type="Boolean">false</CertificateCNInvalid><DNSResolutionFailure Type="Boolean">false</DNSResol
 		
 
 ******Truncated******
@@ -116,5 +116,5 @@ There are some caveats to this script.
 
 I have attached the Powershell script, a sample base MP, and the modified MP. It has two monitors, one with three steps and a content match, and one with a single step. Hopefully this makes your life a little easier.
 
-
+[A Zip file with the Powershell Script, Unmodifed MP example and Modified MP Example.] (https://github.com/y0y0dyn3/opsmanfan/blob/master/ActionableWebAlerts/docs/DetailedAlerts.zip)
 
